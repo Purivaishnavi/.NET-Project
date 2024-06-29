@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timetable {
+    width: 80%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(138, 227, 131, 0.1);
+}
+
+h2,h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 3px double #e48080;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #c89d74;
+}
+
+td {
+    background-color: #af90b5;
+}
+
+td[contenteditable="true"] {
+    background-color: #f6cbf1;
+}
